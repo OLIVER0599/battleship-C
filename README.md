@@ -1,6 +1,6 @@
 # Battleship Game in C
 
-A terminal-based implementation of the classic Battleship board game, written in C as part of the 2322ENG Engineering C course at Griffith University (Trimester 1, 2026).
+A terminal-based implementation of the classic Battleship board game, written in C.
 
 ## About the Game
 
@@ -56,7 +56,7 @@ Using GCC:
 gcc -o battleship main.c board.c ship.c placement.c move.c player.c save.c load.c ai.c userinput.c game.c -lm
 ```
 
-Or with Code::Blocks / VSCode using the gcc compiler as configured in the course.
+Or with Code::Blocks / VSCode using the gcc compiler. "gcc *.c -o -lm" also works
 
 ## How to Play
 
